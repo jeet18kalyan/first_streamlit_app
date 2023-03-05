@@ -50,7 +50,7 @@ except URLError as e:
 # write your own comment - what does this do?
 # streamlit.dataframe(fruityvice_normalized)
 
-streamlit.stop()
+
 # import snowflake.connector
 
 streamlit.header("The fruit load list contains")
@@ -67,7 +67,7 @@ if streamlit.button('Get Fruit Load List'):
   streamlit.dataframe(my_data_rows)
 
 
-
+streamlit.stop()
 
 
 
